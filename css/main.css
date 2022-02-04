@@ -1,0 +1,131 @@
+h4{
+    background-color: black;
+    border-radius: 50%;
+    color: white; 
+    width: 20%;
+}
+/*  Nav-bar */
+.navbar{
+     background:linear-gradient(to left, rgba(30,87,153,1) 30%, #eee);
+}
+.collapse ul li a:hover{
+    background-color: #fff;
+    border-radius: 20px;
+    color: black; 
+    transition: all 1s;
+}
+/* start */
+.start button{
+    border-radius: 20px;
+    width: 30%;
+}
+.start button:hover{
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);  
+  transition: all 1s;
+}  
+
+.start img{
+    margin-top: 20px;
+    width: 100%;
+} 
+/* our-Services and Cards */
+.service {
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+}
+.service h1{
+    text-align: center;
+    color: rgb(7, 67, 136) ;
+}
+.card{
+    margin: auto;   
+    height: 16rem;
+    border: solid rgba(37, 37, 37,0.5);
+    margin-top: 5px;
+    position:static;
+}
+.card img{
+    width: 25%;
+    padding-bottom: 7px;
+}
+.card a:hover{
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);   
+  transition: all 1s;
+} 
+
+.card:hover{
+           border-radius: 20px;
+           -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2); 
+  transform: scale(1.1);   
+  transition: all 1s;
+} 
+/* workFlow      */
+.work:hover{
+    border: solid black;
+    border-radius: 20px;
+    transition: all 1s;
+}
+/* Blogs and cardblo */
+.blog {
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+}
+.blog h1{
+    text-align: center;
+    color: rgb(7, 67, 136) ;
+}
+.cardblo{
+    border: solid black;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    position:static;
+}
+.cardblo:hover{
+    position:static;
+    
+    -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2); 
+transform: scale(1.1);   
+transition: all 1s;
+}
+.cardblo img{
+     size: 100% 100%;
+     width: 100%;
+     border-radius:20px ;
+     
+
+}
+.cardblo a:hover{
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);   
+  transition: all 1s;
+} 
+/* footer */
+#About-us {
+    background-color: rgba(3, 74, 141, 0.6);
+    font-size: 18px;
+}
+#About-us h5{
+    text-decoration: underline  ;
+    
+}
+#About-us a{
+    text-decoration: underline black;
+    color: black; 
+    padding-left: 3px; 
+}
+#About-us a:hover{
+    background-color: #eee;
+    border-radius: 20px;
+    width: 100px;  
+    transition: all 1s;
+}
